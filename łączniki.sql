@@ -31,7 +31,7 @@ UNION
 SELECT imie, nazwisko FROM wykladowcyFilia;
 
 
-zad7
+zad 7
 
 CREATE OR REPLACE VIEW kursyAll AS
 -- Kursy z Siedziby (Bydgoszcz)
