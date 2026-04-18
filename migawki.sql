@@ -87,11 +87,11 @@ FROM REP_kursy;
 zad 9
 
 SELECT 
-    mview_name,            -- Nazwa migawki 
-    last_refresh_date,     -- Kiedy ostatnio zaciągnęła dane [cite: 154]
-    next_refresh_date,     -- Kiedy planuje następny skok po dane [cite: 154]
-    refresh_method,        -- Czy robi to w trybie COMPLETE czy FAST [cite: 154]
-    refresh_mode           -- Czy odświeża się ON DEMAND czy inaczej [cite: 154]
+    mview_name,            
+    last_refresh_date,    
+    next_refresh_date,    
+    refresh_method,        
+    refresh_mode        
 FROM USER_MVIEWS;
 
 
